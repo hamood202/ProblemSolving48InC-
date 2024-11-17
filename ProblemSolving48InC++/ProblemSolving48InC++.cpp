@@ -12,13 +12,10 @@ int RandomNumber(int From, int To) {
 // Combined C++ Programs from COURSE 7
 // Each problem is commented and organized
 
-COURSE 7
-
-
 #pragma region Problem 1
 //  Problem #01
-Write a program to fill a 3x3 matrix with random numbers ؟
-""""""""""""""""""""""""""""
+//Write a program to fill a 3x3 matrix with random numbers ؟
+//""""""""""""""""""""""""""""
 #include <iostream>
 using namespace std;
 int RandomNumber(int From, int To)
@@ -61,8 +58,8 @@ void PrintMatrix(int arr[3][3], short Rows, short Cols)
 
 #pragma region Problem 2
 //  Problem #02
-Write a program to fill a 3x3 matrix with random numbers, then print each row sum :
-""""""""""""""""""""""""""""""""
+//Write a program to fill a 3x3 matrix with random numbers, then print each row sum :
+//""""""""""""""""""""""""""""""""
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -120,15 +117,15 @@ int main() {
 	system("pause>0");
 	return 0;
 }
-====================================================== =
+//====================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 3
 //  Problem #03
-Write a program to fill a 3x3 matrix with random numbers then sum each row in Separate Array and Print the results
-“””””””””””””””””””””
+//Write a program to fill a 3x3 matrix with random numbers then sum each row in Separate Array and Print the results
+//“””””””””””””””””””””
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -194,15 +191,15 @@ int main() {
 	system("pause>0");
 	return 0;
 }
-================================================================================== =
+//================================================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 4
 //  Problem #04
-Write a program to fill a 3x3 matrix with random numbers, then print each Col sum
-“”””””””””””””””””””””””””””””””””””””
+//Write a program to fill a 3x3 matrix with random numbers, then print each Col sum
+//“”””””””””””””””””””””””””””””””””””””
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -260,15 +257,15 @@ int main() {
 	system("pause>0");
 	return 0;
 }
-==============================================================================
+//==============================================================================
 
 
 #pragma endregion
 
 #pragma region Problem 5
 //  Problem #05
-Write a program to fill a 3x3 matrix with random numbers then sum each in another Array and Print them
-""""""""""""""""""""""""""""""""""""""""""
+//Write a program to fill a 3x3 matrix with random numbers then sum each in another Array and Print them
+//""""""""""""""""""""""""""""""""""""""""""
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -335,7 +332,7 @@ int main() {
 	system("pause>0");
 	return 0;
 }
-================================================================================== =
+//================================================================================== =
 
 
 #pragma endregion
@@ -343,7 +340,6 @@ int main() {
 #pragma region Problem 6
 //  Problem #06
 //Write a program to Fill A 3x3 Matrix with Ordered Numbers.
-"""""""""""""""""""""""""""""""""""""
 #include <iostream>
 #include <string>
 using namespace std;
@@ -378,7 +374,7 @@ int main() {
 	system("pause>0");
 	return 0;
 }
-============================================================================== =
+//============================================================================== =
 
 
 #pragma endregion
@@ -386,7 +382,7 @@ int main() {
 #pragma region Problem 7
 //  Problem #07
 //Write a program to Fill a 3x3 Matrix with Ordered Numbers and Print It, then Transpose Matrix and Print
-"""""""""""""""""""""
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -434,7 +430,7 @@ int main()
 	PrintMatrix(arrTransposed, 3, 3);
 	system("pause>0");
 }
-====================================================== =
+//====================================================== =
 
 
 #pragma endregion
@@ -503,7 +499,7 @@ int main()
 	PrintMatrix(MatrixResults, 3, 3);
 	system("pause>0");
 }
-============================================================== =
+//============================================================== =
 
 
 #pragma endregion
@@ -575,7 +571,7 @@ int main()
 	PrintMiddlColInMatrix(Matrix1, 3, 3);
 	system("pause>0");
 }
-========================================================== =
+// ========================================================== =
 
 
 #pragma endregion
@@ -638,7 +634,7 @@ int main()
 	cout << "\nSum of Matrix1 is: " << SumOfMatrix(Matrix1, 3, 3);
 	system("pause>0");
 }
-========================================================
+//========================================================
 
 
 #pragma endregion
@@ -711,7 +707,7 @@ int main()
 		cout << "\nNo: martices are NOT equal.";
 	system("pause>0");
 }
-============================================================== =
+//============================================================== =
 
 
 #pragma endregion
@@ -784,15 +780,14 @@ int main()
 		cout << "\nNo: martices are NOT Typicl.";
 	system("pause>0");
 }
-============================================================
+//============================================================
 
 
 #pragma endregion
 
 #pragma region Problem 13
 //  Problem #13
-Write a program to check if the matrix is identity or not.
-“”””””””””””””””””””””””””””””””””
+//Write a program to check if the matrix is identity or not.
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -843,15 +838,14 @@ int main()
 		cout << "\nNo: Matrix is NOT identity.";
 	system("pause>0");
 }
-====================================================================== =
+//====================================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 14
 //  Problem #14
-Write a program to check if the matrix is Scalar or not.
-“”””””””””””””””””””””””””””””””””””””””””””
+//Write a program to check if the matrix is Scalar or not.
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -901,15 +895,14 @@ int main()
 		cout << "\nNo: Matrix is NOT Scalar .";
 	system("pause>0");
 }
-============================================================ =
+//============================================================ =
 
 
 #pragma endregion
 
 #pragma region Problem 15
 //  Problem #15
-Write a program to count given number in Matrix.
-“”””””””””””””””””””””””””””””””””””””””””””””””””””””””””’’”
+//Write a program to count given number in Matrix.
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -956,15 +949,15 @@ int main()
 	cout << "\nNumber " << Count << " count in matrix is " << CountNumberInMatrix(Matrix1, 3, 3, Count) << endl;
 	system("pause>0");
 }
-==============================================================
+// ==============================================================
 
 
 #pragma endregion
 
 #pragma region Problem 16
 //  Problem #16
-Write a program to check if the matrix is Sparce or not
-‘’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to check if the matrix is Sparce or not
+
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -1011,15 +1004,15 @@ int main()
 		cout << "\nNo: It's NOT Sparse\n";
 	system("pause>0");
 }
-============================================================== =
+//============================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 17
 //  Problem #17
-Write a program to check if a given number exists in matrix  or not
-“”””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to check if a given number exists in matrix  or not
+
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -1065,15 +1058,15 @@ int main()
 		cout << "\nNo: It's NOT there.\n";
 	system("pause>0");
 }
-==========================================================
+//==========================================================
 
 
 #pragma endregion
 
 #pragma region Problem 18
 //  Problem #18
-Write a program to print the intersected numbers in two given matrices.
-“”””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to print the intersected numbers in two given matrices.
+
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -1132,15 +1125,15 @@ int main()
 	PrintIntersectedNumbers(Matrix1, Matrix2, 3, 3);
 	system("pause>0");
 }
-======================================================== =
+//======================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 19
 //  Problem #19
-Write a program to print the minimum and maximum numbers in Matrix.
-“””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to print the minimum and maximum numbers in Matrix.
+
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -1198,15 +1191,15 @@ int main()
 	cout << MaxNumberInMatrix(Matrix1, 3, 3);
 	system("pause>0");
 }
-============================================================
+//============================================================
 
 
 #pragma endregion
 
 #pragma region Problem 20
 //  Problem #20
-Write a program to check it the matrix is palindrome or not.
-“””””””””””””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to check it the matrix is palindrome or not.
+
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -1250,15 +1243,15 @@ int main()
 		cout << "\nNo: Matrix is NOT Palindrome\n";
 	system("pause>0");
 }
-============================================================== =
+//============================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 21
 //  Problem #21
-Write a program to print fibonacci series of 10 .
-“”””””””””””””””””””””””””””””””””””””””””””””””’
+//Write a program to print fibonacci series of 10 .
+
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -1281,15 +1274,15 @@ int main()
 	PrintFibonacciUsingLoop(10);
 	system("pause>0");
 }
-========================================================
+//========================================================
 
 
 #pragma endregion
 
 #pragma region Problem 22
 //  Problem #22
-Write a program to print fibonacci series of 10 by Recurssion .
-“”””””””””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to print fibonacci series of 10 by Recurssion .
+
 #include <iostream>
 #include <string>
 #include <iomanip>
@@ -1318,15 +1311,15 @@ int main()
 	PrintFibonacciUsingRecurssion(10, 1, 0);
 	system("pause>0");
 }
-======================================================== =
+//======================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 23
 //  Problem #23
-Write a program to read a string then print the first letter of each word in that string .
-“”””””””””””””””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to read a string then print the first letter of each word in that string .
+
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -1356,15 +1349,15 @@ int main()
 	PrintFirstLetterOfEachWord(ReadString());
 	system("pause>0");
 }
-======================================================== =
+//======================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 24
 //  Problem #24
-Write a program to read a string then uppercase the first letter of each word in that string .
-“”””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””’’
+//Write a program to read a string then uppercase the first letter of each word in that string .
+
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -1416,15 +1409,15 @@ int main()
 	PrintFirstUpperLetterOfEachWord(ReadString());
 	system("pause>0");
 }
-========================================================
+//========================================================
 
 
 #pragma endregion
 
 #pragma region Problem 25
 //  Problem #25
-Write a program to read a string then loweruppercase the first letter of each word in that string .
-“”””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””’
+//Write a program to read a string then loweruppercase the first letter of each word in that string .
+
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -1476,15 +1469,15 @@ int main()
 	PrintFirstUpperLetterOfEachWord(ReadString());
 	system("pause>0");
 }
-====================================================
+//====================================================
 
 
 #pragma endregion
 
 #pragma region Problem 26
 //  Problem #26
-Write a program to read a string then upper All letter, then lower All letter and print them .
-“”””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to read a string then upper All letter, then lower All letter and print them .
+
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -1524,7 +1517,6 @@ int main()
 	cout << S1 << endl;
 	system("pause>0");
 }
-================================================================
 
 
 #pragma endregion
@@ -1565,7 +1557,6 @@ int main()
 	cout << Ch1 << endl;
 	system("pause>0");
 }
-======================================================== =
 
 
 #pragma endregion
@@ -1604,7 +1595,6 @@ int main()
 	cout << Ch1 << endl;
 	system("pause>0");
 }
-==================================================
 
 
 #pragma endregion
@@ -1671,7 +1661,6 @@ int main()
 	cout << "\nCapital Letters Count= " << CountLetters(S1, enWhatToCount::CapitalLetters);
 	cout << "\nSmall Letters Count= " << CountLetters(S1, enWhatToCount::SmallLetters);
 }
-================================================================
 
 
 #pragma endregion
@@ -1709,19 +1698,17 @@ int main()
 {
 	string S1 = ReadString();
 	char Ch1 = ReadChar();
-	cout << "\nLetter \'" << Ch1 << "\' Count = " <<
-		CountLetter(S1, Ch1);
+	cout << "\nLetter \'" << Ch1 << "\' Count = " << CountLetter(S1, Ch1);
 	system("pause>0");
 }
-========================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 31
 //  Problem #31
-Write a program gram to read a string and read a character then count the character in that string(Match Case or Not)
-“”””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program gram to read a string and read a character then count the character in that string(Match Case or Not)
+
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -1777,22 +1764,20 @@ int main()
 {
 	string S1 = ReadString();
 	char Ch1 = ReadChar();
-	cout << "\nLetter \'" << Ch1 << "\' Count = " <<
-		CountLetter(S1, Ch1);
+	cout << "\nLetter \'" << Ch1 << "\' Count = " <<CountLetter(S1, Ch1);
 	cout << "\nLetter \'" << Ch1 << "\' ";
 	cout << "Or \'" << InvertLetterCase(Ch1) << "\' ";
 	cout << " Count = " << CountLetterAll(S1, Ch1);
 	system("pause>0");
 }
-====================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 32
 //  Problem #32
-Write a program to read a character the check if it is a vowel or not (Vowels are : a, e, i, o, u)
-“”””””””””””””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to read a character the check if it is a vowel or not (Vowels are : a, e, i, o, u)
+
 #include <iostream>
 #include <string>
 using namespace std;
@@ -1822,15 +1807,13 @@ int main()
 		cout << "\nNO Letter \'" << Ch1 << "\' is NOT vowel";
 	system("pause>0");
 }
-========================================================
 
 
 #pragma endregion
 
 #pragma region Problem 33
 //  Problem #33
-Write a program to read a string then count all vowels in that string(Vowels are: a, e, i, o, u)
-“””””””””””””””””””””””””””””””””””””””””””’’’’
+//Write a program to read a string then count all vowels in that string(Vowels are: a, e, i, o, u)
 #include <iostream>
 #include <string>
 using namespace std;
@@ -1862,15 +1845,13 @@ int main()
 	cout << "\nNumber of vowels is: " << CountLetterIsVowel(S1);
 	system("pause>0");
 }
-====================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 34
 //  Problem #34
-Write a program to read a string then print all vowels in that string(Vowels are : a, e, i, o, u)
-“”””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to read a string then print all vowels in that string(Vowels are : a, e, i, o, u)
 #include <iostream>
 #include <string>
 using namespace std;
@@ -1901,15 +1882,14 @@ int main()
 	PrintVowels(S1);
 	system("pause>0");
 }
-==================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 35
 //  Problem #35
-Write a program to read a string then print each word in that string.
-“””””””””””””””””””””””””””””””””””””””
+//Write a program to read a string then print each word in that string.
+
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -1962,15 +1942,14 @@ int main()
 	PrintEachWordInString2(S1);
 	system("pause>0");
 }
-==========================================================
 
 
 #pragma endregion
 
 #pragma region Problem 36
 //  Problem #36
-Write a program to read a string then count each word in that string.
-“””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to read a string then count each word in that string.
+
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -2013,15 +1992,13 @@ int main()
 	cout << CountWords(S1);
 	system("pause>0");
 }
-==========================================================
 
 
 #pragma endregion
 
 #pragma region Problem 37
 //  Problem #37
-Write a program to read a string then make a function to split each word in vector.
-“”””””””””””””””””””””””””””””””””””””””””””’
+//Write a program to read a string then make a function to split each word in vector.
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -2072,15 +2049,13 @@ int main()
 	PrintEachWords(sVector);
 	system("pause>0");
 }
-======================================================
 
 
 #pragma endregion
 
 #pragma region Problem 38
 //  Problem #38
-Write a program to read a string then Trim Left, Right, All.
-“”””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to read a string then Trim Left, Right, All.
 #include <iostream>
 #include <string>
 #include <vector>
@@ -2120,15 +2095,13 @@ int main()
 	cout << "\nTrim = " << Trim(S1);
 	system("pause>0");
 }
-==================================================
 
 
 #pragma endregion
 
 #pragma region Problem 39
 //  Problem #39
-Write a program to join vector of strings into a one string with separators
-“”””””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to join vector of strings into a one string with separators
 #include <iostream>
 #include <string>
 #include <vector>
@@ -2156,15 +2129,14 @@ int main()
 	cout << JoinString(vString, "+");
 	system("pause>0");
 }
-==================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 40
 //  Problem #40
-Write a program to join array of strings into a one string with separators.
-“”””””””””””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to join array of strings into a one string with separators.
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -2198,15 +2170,14 @@ int main()
 	cout << JoinString(vStringArray, 4, " ");
 	system("pause>0");
 }
-============================================================
 
 
 #pragma endregion
 
 #pragma region Problem 41
 //  Problem #41
-Write a program to Read string and reverse its words .
-“”””””””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to Read string and reverse its words .
+
 #include <iostream>
 #include <string>
 #include <sstream>
@@ -2298,15 +2269,13 @@ int main()
 	cout << " The Two : " << ReverseWordsInString(S1) << endl;
 	system("pause>0");
 }
-======================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 42
 //  Problem #42
-Write a program to  replace word in string.
-“”””””””””””””””””””””””””””””””””””””””””””
+//Write a program to  replace word in string.
 #include <iostream>
 #include <string>
 #include <vector>
@@ -2334,15 +2303,13 @@ int main()
 	cout << ReplaceWordInStringUsingBuiltInFunction(S1, "a", "H") << endl;
 	system("pause>0");
 }
-======================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 43
 //  Problem #43
-Write a program to  replace word in string  using custom function.
-“”””””””””””””””””””””””””””””””””””””””””””””””””””””’
+//Write a program to  replace word in string  using custom function.
 #include <iostream>
 #include <string>
 #include <vector>
@@ -2426,15 +2393,12 @@ int main()
 	cout << "\n" << ReplaceWordInStringUsingSplit(S1, StringToReplace, ReplaceTo, false);
 	system("pause>0");
 }
-========================================================== =
-
 
 #pragma endregion
 
 #pragma region Problem 44
 //  Problem #44
-Write a program to remove all punctuations from a string :
-“”””””””””””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to remove all punctuations from a string :
 #include <iostream>
 #include <string>
 #include <vector>
@@ -2465,15 +2429,13 @@ int main()
 	cout << "\n\nPauncuations Removed:\n" << RemovePunctuationsFromString(S1);
 	system("pause>0");
 }
-================================================ =
 
 
 #pragma endregion
 
 #pragma region Problem 45
 //  Problem #45
-Write a program to read bank client data record and convert it to one line.
-“”””””””””””””””””””””””””””””””””””””””
+//Write a program to read bank client data record and convert it to one line.
 #include <iostream>
 #include <string>
 #include <vector>
@@ -2520,15 +2482,14 @@ int main()
 	cout << ConvertRecordToLine(Client);
 	system("pause>0");
 }
-==================================================== =
 
 
 #pragma endregion
 
 #pragma region Problem 46
 //  Problem #46
-Write a program to convert line data to record and print it :
-“””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to convert line data to record and print it :
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -2616,15 +2577,14 @@ int main()
 	PrintClientRecord(Client);
 	system("pause>0");
 }
-============================================================
 
 
 #pragma endregion
 
 #pragma region Problem 47
 //  Problem #47
-Write a program to ask you to enter clients and save them to file.
-“””””””””””””””””””””””””””””””””””””””””””””””””””
+//Write a program to ask you to enter clients and save them to file.
+
 #include <iostream>
 #include <string>
 #include <vector>
@@ -2739,7 +2699,6 @@ int main()
 	AddClients();
 	system("pause>0");
 }
-============================================================
 
 
 #pragma endregion
@@ -2760,23 +2719,23 @@ struct sClient
 	string sNameClient;
 	string sPhoneNumber;
 	double dAccountBalance;
-};
-sClient ReadNewClient()
-{
-	sClient Client;
-	cout << "Enter Account Number? ";
-	// Usage of std::ws will extract allthe whitespace character
-	getline(cin >> ws, Client.sAccountNumber);
-	cout << "Enter PinCode? ";
-	getline(cin, Client.sPinCode);
-	cout << "Enter Name? ";
-	getline(cin, Client.sNameClient);
-	cout << "Enter Phone? ";
-	getline(cin, Client.sPhoneNumber);
-	cout << "Enter AccountBalance? ";
-	cin >> Client.dAccountBalance;
-	return Client;
-}
+//};
+//sClient ReadNewClient()
+//{
+//	sClient Client;
+//	cout << "Enter Account Number? ";
+//	// Usage of std::ws will extract allthe whitespace character
+//	getline(cin >> ws, Client.sAccountNumber);
+//	cout << "Enter PinCode? ";
+//	getline(cin, Client.sPinCode);
+//	cout << "Enter Name? ";
+//	getline(cin, Client.sNameClient);
+//	cout << "Enter Phone? ";
+//	getline(cin, Client.sPhoneNumber);
+//	cout << "Enter AccountBalance? ";
+//	cin >> Client.dAccountBalance;
+//	return Client;
+//}
 vector<string> SplitString(string S1, string Delim)
 {
 	vector<string> vString;
@@ -2923,18 +2882,5 @@ int main()
 	PrintAllClientsData(vClients);
 	system("pause>0");
 }
-====================================================== =
-
 
 #pragma endregion
-
-#pragma region Problem 49
-//  Problem #49
-#pragma endregion
-
-
-int main() {
-	srand((unsigned)time(NULL));
-	// Add test cases here
-	return 0;
-}
